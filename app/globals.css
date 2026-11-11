@@ -43,7 +43,7 @@ h1 em,h2 em,.manifesto em,.closing-quote em,.connect-card em { color:var(--orang
 .hero-note { display:flex; gap:12px; align-items:center; margin-top:62px; color:#7a8073; font-size:10px; line-height:1.6; }
 .note-star { font-size:29px; color:var(--orange); }
 .hero-art { position:relative; align-self:center; padding:0 0 32px 10px; }
-.hero-image { min-height:485px; width:100%; background:url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=90') center/cover; border-radius:48% 48% 4px 4px; }
+.hero-image { min-height:485px; width:100%; background:url('/images/sarah1.png') center 38%/cover; border-radius:48% 48% 4px 4px; }
 .image-sticker { position:absolute; left:-33px; top:58%; width:120px; height:120px; background:#e8b18d; border-radius:50%; display:flex; align-items:center; justify-content:center; text-align:center; font-family:var(--serif); font-size:17px; line-height:1.1; transform:rotate(-11deg); box-shadow:0 8px 25px #26352b18; }
 .image-sticker b { position:absolute; top:10px; right:13px; color:#fff3d8; font-size:20px; }
 .image-caption { position:absolute; bottom:0; right:4px; font-family:var(--serif); font-style:italic; font-size:13px; color:#737a6c; }
@@ -66,7 +66,7 @@ h1 em,h2 em,.manifesto em,.closing-quote em,.connect-card em { color:var(--orang
 .experience-card p { color:#777d72; font-size:12px; line-height:1.85; min-height:88px; }
 .card-link { display:inline-block; padding-bottom:6px; border-bottom:1px solid var(--line); font-size:10px; margin-top:5px; }
 .sarah-section { background:#e9e5d9; display:grid; grid-template-columns:1fr 1fr; min-height:640px; }
-.sarah-image { min-height:620px; background:url('https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=85') center 35%/cover; }
+.sarah-image { min-height:620px; background:url('/images/sarah2.jpg') center 35%/cover; }
 .sarah-copy { padding:90px 14% 75px 12%; align-self:center; position:relative; }
 .sarah-copy h2 { margin:20px 0 25px; }
 .sarah-copy p:not(.eyebrow) { color:#70776b; font-size:12px; line-height:1.95; }
