@@ -1,4 +1,5 @@
 const instagram = "https://www.instagram.com/forwardwegrow/";
+const contactEmail = "info@fwg.com";
 
 const experiences = [
   {
@@ -163,8 +164,10 @@ export default function Home() {
         <div className="connect-card">
           <span className="connect-spark">✳</span>
           <p>Good things grow<br />when we <em>connect.</em></p>
-          <a className="button button-dark" href={instagram}>Start a conversation <Arrow /></a>
-          <small>For enquiries, collaborations and curious humans.</small>
+          <a className="button button-dark" href={`mailto:${contactEmail}?subject=Hello%20Forward%20We%20Grow`}>Email Forward We Grow <Arrow /></a>
+          <small>For enquiries, collaborations and curious humans.<br />
+            <a href={`mailto:${contactEmail}`}>{contactEmail}</a>
+          </small>
         </div>
       </section>
 
@@ -176,6 +179,7 @@ export default function Home() {
         <p>Kick-ass humans. Growing together. 🌿</p>
         <div className="footer-links">
           <a href={instagram}>Instagram <Arrow /></a>
+          <a href={`mailto:${contactEmail}`}>Email <Arrow /></a>
           <a href="#top">Back to top ↑</a>
         </div>
         <span className="copyright">© {new Date().getFullYear()} Forward We Grow</span>
